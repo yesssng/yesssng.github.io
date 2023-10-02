@@ -1,0 +1,384 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: black;
+    z-index: 5;
+}
+
+
+.header_inner{
+    width: 100%;
+    background-color: lightgray;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: .6;
+}
+
+.header_auen{
+    position: fixed;
+    z-index: 5;
+    right: 0;
+    top: 0;
+    width: 230px;
+    margin-right: -50px;
+    margin-top: -67px;
+    animation: rotation 9s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+#on_button{
+    height: 40px;
+    width: 40px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin-right: 45px;
+    margin-top: 15px;
+    z-index: 5;
+}
+#off_button{
+    height: 40px;
+    width: 40px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin-right: 45px;
+    margin-top: 15px;
+    z-index: 5;
+    visibility: hidden;
+}
+
+.welcome_page{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+}
+
+
+.bigflowers{
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 180px;
+    margin-left: -38%;
+}
+
+.flowers{
+    height: 450px;
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: -175px;
+    margin-right: -75%;
+}
+
+
+.blestki21{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 370px;
+    transform: rotate(-45deg);
+    margin-left: -180px;
+    margin-top: -120px;
+}
+
+.blestki22{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 200px;
+    transform: rotate(70deg);
+    margin-right: -70px;
+    margin-top: 620px;
+}
+
+
+.chinnar{
+    height: 270px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.div_invantion{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 120px;
+}
+
+.invantion{
+    width: 200px;
+    font-size: 17px;
+}
+
+.startdate{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+#demo{
+    margin-top: 350px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #0c003f;
+}
+
+.bg{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.qurmetti{
+    height: 100px;
+    margin-top: 10px;
+}
+
+.anons1{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 175px;
+}
+
+.anons2{
+    width: 290px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 300px;
+}
+
+.anons3{
+    width: 290px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 400px;
+}
+
+.qarasha{
+    height: 50px;
+    position: absolute;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    margin-top: 410px;
+    animation: zoom-in-zoom-out 3s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.3, 1.3);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+.fullcalendar{
+    position: absolute;
+    height: 230px;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    margin-top: 530px;
+}
+
+.bigbigflowers{
+    height: 200px;
+    position: absolute;
+    left: 36%;
+    transform: translate(-50%, -50%);
+    margin-top: 600px;
+    transform: rotate(-90deg);
+}
+
+.otkizetin{
+    height: 60px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 710px;
+}
+
+.anons4{
+    width: 290px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 760px;
+    font-weight: 600;
+}
+
+.anons5{
+    width: 290px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 780px;
+    font-size: 13px;
+}
+
+.gis2{
+    height: 70px;
+    margin-top: 835px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    color: #0c003f;
+}
+
+
+span{
+    color: #0c003f;
+}
+
+.bagdarlamasy{
+    height: 60px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 920px;
+}
+
+.cont{
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1350px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan_title{
+    margin-bottom: 5px;
+}
+
+.plan_desc{
+    margin-bottom: 5px;
+}
+
+.plan_img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.flowerheart{
+    height: 150px;
+    width: 150px;
+}
+
+
+
+.wed{
+    width: 50vh ;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 2350px;
+    filter: brightness(.7)
+}
+
+.ieleri{
+    width: 240px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 2280px;
+    z-index: 1;
+}
+
+.mg{
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 2340px;
+    z-index: 1;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.mg::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: white;
+    margin-top: 8px;
+}
+
+.kutemiz{
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 2390px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+.bouqette{
+    width: 240px;
+    left: 55%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-top: 1150px;
+    transform: rotate(-45deg);
+}
