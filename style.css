@@ -15,6 +15,7 @@ body {
 
 .wrap{
     overflow-x: hidden;
+    position: relative;
 }
 
 .container {
