@@ -86,7 +86,7 @@ h1{
 }
 
 .welcome_page{
-    width: 100%;
+    width: 100vh;
     height: 80vh;
     background-color: white;
 }
