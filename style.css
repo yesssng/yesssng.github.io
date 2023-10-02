@@ -333,7 +333,7 @@ span{
     position: absolute;
     transform: translate(-50%, -50%);
     margin-top: 2350px;
-    filter: brightness(.7)
+    filter: brightness(.7);
     border-radius: 10px;
 }
 
