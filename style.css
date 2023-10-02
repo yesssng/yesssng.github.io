@@ -13,6 +13,10 @@ body {
     margin-right: auto;
 }
 
+.wrap{
+    overflow-x: hidden;
+}
+
 .container {
     text-align: center;
     width: 100%;
