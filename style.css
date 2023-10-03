@@ -336,7 +336,7 @@ span{
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 2350px;
+    margin-top: 1900px;
     filter: brightness(.7);
     border-radius: 10px;
 }
@@ -346,7 +346,7 @@ span{
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 2280px;
+    margin-top: 1820px;
     z-index: 1;
 }
 
@@ -354,12 +354,13 @@ span{
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 2340px;
+    margin-top: 1890px;
     z-index: 1;
     color: white;
     font-size: 25px;
     font-weight: 600;
     text-align: center;
+    width: 200px;
 }
 
 .mg::after{
@@ -368,14 +369,14 @@ span{
     height: 2px;
     background-color: white;
     margin-top: 8px;
-    width: 500px;
+    width: auto;
 }
 
 .kutemiz{
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    margin-top: 2390px;
+    margin-top: 1950px;
     z-index: 1;
     text-align: center;
     color: white;
